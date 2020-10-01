@@ -1,7 +1,56 @@
 .attribution {
     font-size: 11px;
     text-align: center;
-  }
-  .attribution a {
+}
+
+.attribution a {
     color: hsl(228, 45%, 44%);
-  }
+}
+
+/* start here: */
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+h1,
+h2 {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+p {
+    color: hsl(303, 10%, 53%);
+}
+
+h3 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1em;
+}
+
+h4 {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+    font-size: 1em;
+}
+
+cite {
+    color: hsl(300, 24%, 96%);
+    font-weight: 500;
+    font-size: 1em;
+    font-style: normal;
+}
+
+.rating {
+    background-color: hsl(300, 24%, 96%);
+}
+
+.card {
+    background-color: hsl(300, 43%, 22%);
+}
