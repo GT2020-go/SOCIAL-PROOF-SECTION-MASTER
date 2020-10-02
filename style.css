@@ -9,10 +9,12 @@
 
 /* start here: */
 
+html,
 body {
     font-family: 'Spartan', sans-serif;
     font-weight: 500;
     font-size: 15px;
+    margin: 0;
 }
 
 h1,
@@ -55,9 +57,14 @@ cite {
     background-color: hsl(300, 43%, 22%);
 }
 
-.background {}
+.background {
+    z-index: 0;
+    position: absolute;
+}
 
 .pattern-top {
+    top: 0;
+    left: 0;
     display: block;
     text-indent: -9999px;
     width: 374px;
@@ -67,6 +74,8 @@ cite {
 }
 
 .pattern-bottom {
+    left: 0;
+    bottom: 0;
     display: block;
     text-indent: -9999px;
     width: 374px;
