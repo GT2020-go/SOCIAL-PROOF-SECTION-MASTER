@@ -18,6 +18,8 @@ body {
     padding: 0;
 }
 
+/*Style of Title & subtitle: */
+
 h1,
 h2 {
     color: hsl(300, 43%, 22%);
@@ -30,6 +32,7 @@ h1 {
     line-height: 1em;
     text-align: center;
     margin-top: 1.5em;
+    margin-bottom: 0.5em;
     padding-top: 1em;
     padding-left: 1em;
     padding-right: 1em;
@@ -49,11 +52,14 @@ p {
 }
 
 
+/*Style of Reviews ratings: */
 
 .ratings {
-    margin-top: 2em;
+    margin-top: 1.7em;
+    margin-bottom: 2.4em;
     padding-left: 1.55em;
     padding-right: 1.55em;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,11 +74,16 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 0.25em;
+    padding-top: .4em;
+    padding-bottom: .4em;
 }
 
 .stars {
     display: flex;
     justify-content: space-between;
+    padding-top: 0.1em;
 }
 
 .star {
@@ -86,9 +97,34 @@ h2 {
     letter-spacing: -0.015em;
 }
 
+/*Style of the customer feedback cards: */
+
+.container {
+    margin-top: 2em;
+    padding-left: 1.55em;
+    padding-right: 1.55em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: .75em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 16.5em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+
+}
+
 .customer {
-    padding-left: 2.1em;
-    padding-right: 2.1em;
+    margin-top: 1em;
+    padding-left: 2.2em;
+    padding-right: 2.2em;
     display: flex;
     flex-direction: row;
 }
@@ -107,55 +143,43 @@ img {
 .name {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 1em;
 }
 
 h3 {
     color: hsl(0, 0%, 100%);
-    font-size: 1em;
+    font-weight: 500;
+    font-size: .85em;
     margin: 0;
 }
 
 h4 {
     color: hsl(333, 80%, 67%);
     font-weight: 400;
-    font-size: 1em;
+    font-size: .85em;
     margin: 0;
 }
 
 .quote {
     padding-left: 2.1em;
     padding-right: 2.1em;
+    padding-bottom: 1em;
 }
 
 cite {
     color: hsl(300, 24%, 96%);
     font-weight: 400;
-    font-size: .95em;
+    font-size: .8575em;
     font-style: normal;
-}
-
-.container {
-    margin-top: 2em;
-    padding-left: 1.55em;
-    padding-right: 1.55em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.card {
-    background-color: hsl(300, 43%, 22%);
-    border-radius: .75em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    line-height: 1.8em;
 }
 
 
+/*Style of background SVG waves: */
 
 .background {
-    z-index: 0;
+    z-index: -1;
     position: absolute;
 }
 
