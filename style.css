@@ -216,12 +216,16 @@ cite {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {}
+
+
+/* Extra large devices (landscape tablets, 1440px and up) */
+@media only screen and (min-width: 1440px) {
     main {
         max-width: 1440px;
         max-height: 800px;
         height: 800px;
-
+        margin: auto;
     }
 
     section {
@@ -293,8 +297,6 @@ cite {
         margin-right: 1.5em;
 
     }
-
-
 
     .container {
         margin-top: 4em;
