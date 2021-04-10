@@ -18,12 +18,43 @@ body {
     padding: 0;
 }
 
+/**
+ * ----------------------------------------
+ * animation color-change-5x
+ * ----------------------------------------
+ */
+ @keyframes color-change-5x {
+    0% {
+      background: #19dcea;
+    }
+    25% {
+      background: #b22cff;
+    }
+    50% {
+      background: #3622ea;
+    }
+    75% {
+      background: #c010f5;
+    }
+    100% {
+      background: #22ea3360;
+    }
+  }
+
+  body{
+      z-index: -10;
+      animation: color-change-5x 8s linear infinite alternate both;
+  }
+
+
 main {
+    z-index: 10;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     position: relative;
     max-width: 375px;
     margin: auto;
-}
+    background-color: #fff;
+    }
 
 /*Style of Title & subtitle: */
 
